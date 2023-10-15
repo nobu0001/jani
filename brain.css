@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=IBM+Plex+Serif:ital,wght@1,500&family=Young+Serif&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-repeat:no-repeat;
+    background-size:cover ;
+
+}
+#section-1st{
+    height: 50rem;
+}
+#div-parent{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    top: 5rem;
+    
+}
+.class{
+    font-family: 'Acme', sans-serif;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Young Serif', serif;
+    position: absolute;
+    text-decoration: none;
+    color: #eee;
+   left: 0.9rem;
+   top: 1.2rem;
+    
+}
+#id_3{
+    left: 1.5rem;
+}
+
+.div-class{
+    position: relative;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    height: 4rem;
+    width: 7rem;
+    border-radius:8px ;
+    background-image: linear-gradient(to right top, #d16bc5, #a580de, #7190e7, #389be0, #00a2cf, #00adcb, #00b6c3, #00bfb6, #00d1b0, #00e29d, #00f27e, #00ff4d);
+    -webkit-border-radius:8px ;
+    -moz-border-radius:8px ;
+    -ms-border-radius:8px ;
+    -o-border-radius:8px ;
+    justify-content: center;
+    align-items: center;
+}
+.div-class:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
